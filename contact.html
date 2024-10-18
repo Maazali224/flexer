@@ -11,8 +11,16 @@
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         
+        /* Wrapper to ensure content stretches to full height */
+        .wrapper {
+            flex: 1;
+        }
+
         /* Header Styles */
         header {
             background-color: #4CAF50;
@@ -39,7 +47,6 @@
             color: black;
         }
 
-      
         /* Product Section */
         .products {
             display: flex;
@@ -84,99 +91,44 @@
             color: white;
             padding: 10px 0;
             text-align: center;
-            margin-top: 20px;
         }
 
+        /* Contact Section */
+        #contact {
+            text-align: center;
+            margin: 20px 0;
+        }
+        #contact h2 {
+            font-size: 24px;
+        }
+        #contact p {
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        Welcome to Our Online Store
-    </header>
+    <div class="wrapper">
+        <!-- Header -->
+        <header>
+            Welcome to Our Online Store
+        </header>
 
-    <!-- Main Navigation Menu -->
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email us at: <a href="mailto:flexershoppk@gmail.com">  flexershoppk@gmail.com
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        thanks for visit</a></p>
-    </section>
+        <!-- Main Navigation Menu -->
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at: <a href="mailto:flexershoppk@gmail.com">flexershoppk@gmail.com</a></p>
+            <p>Thanks for visiting!</p>
+        </section>
+    </div>
 
     <!-- Footer -->
     <footer>
