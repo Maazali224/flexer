@@ -39,13 +39,69 @@
             color: black;
         }
 
+      
+        /* Product Section */
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            padding: 0 10px;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .buy-now-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .buy-now-btn:hover {
+            background-color: #128C7E;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
 
-    <!-- Navigation -->
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        Welcome to Our Online Store
+    </header>
+
+    <!-- Main Navigation Menu -->
     <nav>
-        <a href="index.html">Home</a>
+        <a href="#">Home</a>
         <a href="products.html">Products</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
     </nav>
 
     <!-- Products Section -->
